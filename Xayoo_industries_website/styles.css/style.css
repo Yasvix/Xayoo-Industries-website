@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif, Arial;
+}
+
+
+.header {
+    width: 100%;
+    padding: 20px 10%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5)47%,rgba(255, 238, 0, 1)95%),url(../img/xayoo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+
+
+.nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav ul {
+    flex: 1;
+    text-align: right;
+    margin-right: 100px;
+}
+
+
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px 50px;
+    transition: transform 0.5s;
+}
+
+
+.nav ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    letter-spacing: 4px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.nav ul li:hover {
+    transform: translateY(-5px);
+}
+
+.nav ul li a:hover {
+    color: rgba(255, 238, 0, 1);
+}
+
+
+.logo {
+    width: 100px;
+    margin-right: -150px;
+    cursor: pointer;
+}
+
+
+.row {
+    display: flex;
+    height: 50%;
+    transform: translateX(5%);
+    align-items: center;
+
+}
+
+
+.row h1 {
+    position: absolute;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 100px; 
+}
+
+.row p {
+    position: relative;
+    color: whitesmoke;
+    margin-top: 150px;
+    margin-left: 150px;
+    font-size: 17px;
+    opacity: 0.5;
+   
+}
+
+
+.helper {
+    position: absolute;
+    bottom: 35px;
+    right: 35px;
+    height: 50px;
+    width: 50px;
+    border-radius: 70px;
+    border: 2px solid;
+    background-color: rgb(247, 235, 70);
+    cursor: pointer;
+    z-index: 100;
+    transition: opacity 0.15s;
+}
+
+
+.helper:hover {
+    opacity: 0.7;
+}
+
+.helper:active {
+    opacity: 1;
+}
+
+.helper-icon {
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+

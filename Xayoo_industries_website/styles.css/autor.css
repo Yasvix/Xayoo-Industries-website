@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif, Arial;
+
+}
+
+body {
+    padding-bottom: 289px;
+    background-color: rgba(255, 255, 255, 1);
+    background-image: linear-gradient(360deg, rgba(255, 255, 255, 1) 83%, rgba(255, 238, 0, 1) 100%);
+}
+
+.last-nav .logo{
+    width: 100px;
+    margin: 20px 20px;
+    cursor: pointer;
+}
+
+
+.last-nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 238, 0, 1);
+    background-image: linear-gradient(360deg, rgba(255, 238, 0, 1) 0%, rgba(0, 0, 0, 1) 15%);
+
+}
+
+.last-nav ul {
+    flex: 1;
+    text-align: center;
+}
+
+.last-nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 25px;
+    transition: 0.5s;
+}
+
+
+.last-nav ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.last-nav ul li:hover {
+    transform: translateY(-5px);
+}
+
+
+.last-nav ul li a:hover {
+    color: rgba(255, 238, 0, 1);
+}
+
+
+
+.title {
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+}
+
+.title h1 {
+    letter-spacing: 1px;
+    text-align: center;
+    display: inline-block;
+    font-size: 60px;
+    color: #333;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.5s;
+    
+}
+
+.title h1:hover {
+    color: rgb(124, 124, 124);
+}
+
+
+.last-text {
+    margin-top: 10%;
+    text-align: center;
+    max-width: 700px;
+    margin-left: 32%;
+}
+
+.last-text p {
+    font-weight: bold;
+    color: #333;
+    font-size: 25px;
+}
